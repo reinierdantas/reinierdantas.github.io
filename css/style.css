@@ -448,5 +448,29 @@ a{
     }
 }
 
+/************* EN PAGE ***********/
+.chamadaEn{
+    background-image: linear-gradient(to right,#007571 , #009e99);
+}
+
+.conhecimentoEn{
+    background-color: #00bab4;
+}
+
+.projetosEn{
+    background: #009e99;
+}
+
+.projeto-picEn h2{
+    background: #04e0d9;
+}
+
+.projetoEn li{
+    background: #007571;
+}
+
+.sobreEn{
+    background: #007571;
+}
 
 
