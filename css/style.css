@@ -64,7 +64,6 @@ a{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    
 }
 .menu-nav ul li{
     padding: 15px;
@@ -109,7 +108,6 @@ a{
     padding: 0 8%;
     text-align: left;
     padding-bottom: 50px;
-    
 }
 .chamada-text h1{
     font-size: 5em;
@@ -212,7 +210,7 @@ a{
     text-align: center;
     justify-content: center;
 }
-.pr, .dogl{
+.projeto{
     margin: 0 20px;
     
   
@@ -238,10 +236,10 @@ a{
 .projeto-pic img:hover{
     opacity: 1;
 }
-.pr ul, .dogl ul {
+.projeto ul {
     margin-top: 10px;
 }
-.pr li, .dogl li{
+.projeto li{
     display: inline-block;
     font-weight: 300;
     padding: 5px ;
