@@ -239,7 +239,7 @@ a{
 .projeto ul {
     margin-top: 10px;
 }
-.projeto li{
+.projeto ul li{
     display: inline-block;
     font-weight: 300;
     padding: 5px ;
