@@ -211,7 +211,7 @@ a{
     text-align: center;
     justify-content: center;
 }
-.pr, .dogl{
+.projeto{
     margin: 0 20px;
     
   
@@ -237,10 +237,10 @@ a{
 .projeto-pic img:hover{
     opacity: 1;
 }
-.pr ul, .dogl ul {
+.projeto ul {
     margin-top: 10px;
 }
-.pr li, .dogl li{
+.projeto ul li{
     display: inline-block;
     font-weight: 300;
     padding: 5px ;
