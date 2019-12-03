@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: reinierdantas.github.io
-Token: 75786fa52ea514fc7d8a872a09b0f0c2b1e8777d86926fa5efadb996ad22a91f
