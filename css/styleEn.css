@@ -101,15 +101,14 @@ a{
     display: flex;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to right,#c95100 , #fc7b23);
+    background-image: linear-gradient(to right,#007571 , #009e99);
 }
 .chamada-text{
     max-width: 100%;
     width: 100%;
     padding: 0 8%;
     text-align: left;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px;    
 }
 .chamada-text h1{
     font-size: 5em;
@@ -162,10 +161,11 @@ a{
     flex-direction: column;
     justify-content: center;
     height: auto;
-    background-color: #fc7b23;
+    background-color: #00bab4;
     padding-bottom: 270px;
     padding-top: 50px;
 }
+
 .conhecimento-icons{
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +199,7 @@ a{
     text-align: center;
     flex-wrap: wrap;
     height: auto;
-    background: #ff7512;
+    background: #009e99;
     padding-top: 50px;
     padding-bottom: 150px;
 }
@@ -219,7 +219,7 @@ a{
 .projeto-pic h2{
     color: #fff;
     font-weight: 700;
-    background: #fa9855;
+    background: #04e0d9;
     border-radius: 0px 0px 5px 5px;
     padding: 10px;
     font-size: 1.5em;
@@ -244,14 +244,14 @@ a{
     display: inline-block;
     font-weight: 300;
     padding: 5px ;
-    background: #c95100;
+    background: #007571;
     color: #fff;
     border-radius: 10px;
 }
 
 /*SOBRE*/
 .sobre{
-    background: #c95100;
+    background: #007571;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -338,6 +338,7 @@ a{
     color: #fff;
 }
 
+
 /*FOOTER*/
 .rodape{
     background: #000;
@@ -357,7 +358,6 @@ a{
     color: #837f7f;
     font-weight: 700;
 }
-
 .rodape a{
     color: #837f7f;
     font-weight: 700;
@@ -448,39 +448,5 @@ a{
     }
 }
 
-/* Animação data-target */
-[data-anime]{
-    opacity: 0;
-    transform: translate3d(0,-50px,0);
-    transition: .3s;
-}
 
-[data-anime].animate{
-    opacity: 1;
-    transform: translate3d(0,0,0)
-}
 
-/************* EN PAGE ***********/
-.chamadaEn{
-    background-image: linear-gradient(to right,#007571 , #009e99);
-}
-
-.conhecimentoEn{
-    background-color: #00bab4;
-}
-
-.projetosEn{
-    background: #009e99;
-}
-
-.projeto-picEn h2{
-    background: #04e0d9;
-}
-
-.projetoEn ul li{
-    background: #007571;
-}
-
-.sobreEn{
-    background: #007571;
-}
