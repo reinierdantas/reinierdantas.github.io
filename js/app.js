@@ -53,3 +53,11 @@ function animeScroll() {
 $(document).scroll(function() {
     animeScroll();
 });
+
+//Redirecionar página conforme idioma do browser
+var browseLang = window.navigator.language;
+if(browseLang == 'en-US'){
+    window.location.href = 'https://reinierdantas.github.io/indexEn';
+}else{
+    window.location.href = 'https://reinierdantas.github.io';
+}
