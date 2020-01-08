@@ -58,7 +58,7 @@ $(document).scroll(function() {
 //Mudar homepage de acordo com a linguagem do browse
 let browseLang = navigator.language;
 if(browseLang = "en-US"){
-    window.document.href('https://reinierdantas.github.io/indexEn');
+    window.location.href('https://reinierdantas.github.io/indexEn');
 } else{
-    window.document.href('https://reinierdantas.github.io');
+    window.location.href('https://reinierdantas.github.io');
 }
