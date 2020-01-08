@@ -56,8 +56,11 @@ $(document).scroll(function() {
 
 //Redirecionar página conforme idioma do browser
 var browseLang = window.navigator.language;
+function browseChange(){
 if(browseLang == 'en-US'){
     window.location.href = 'https://reinierdantas.github.io/indexEn';
 }else{
     window.location.href = 'https://reinierdantas.github.io';
 }
+}
+browseChange();
