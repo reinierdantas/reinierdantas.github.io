@@ -53,10 +53,3 @@ function animeScroll() {
 $(document).scroll(function() {
     animeScroll();
 });
-
-
-//Mudar homepage de acordo com a linguagem do browse
-let browseLang = navigator.language;
-if(browseLang == "en-US"){
-    window.location.href('https://reinierdantas.github.io/indexEn');
-}
