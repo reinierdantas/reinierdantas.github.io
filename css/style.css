@@ -250,48 +250,71 @@ a{
 }
 
 /*SOBRE*/
-.sobre{
+.contato{
     background: #c95100;
+    padding-top: 50px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex-wrap: wrap;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 150px;
 }
-.sobre-info{
-    padding-top: 50px;
+.contato-form{
+    margin: 0 20px;
 }
-.sobre-info img{
-    border-radius: 50%;
-    height: 150px;
-    width: 100%;
-    max-width: 150px;
-    border: 5px solid #fff;
-    margin-bottom: 20px;;
-}
-.sobre-info p{
+.contato p{
     color: #fff;
     font-weight: 300;
-    font-size: 1.5em;
-    padding: 0 4%;
-    text-align: center;
+    padding: 20px;
+    font-size: 20px;
 }
-.sobre-info span a{
+form{
+    display: flex;
+    flex-direction: column;
+    background: #ff7512;
+    max-width: 100%;
+    width: 800px;  
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.1);
+}
+input{
+    padding: 10px;
+    margin: 10px 20px;
+    display: block; 
+    border-radius: 5px;
+    border:none;
+}
+form button{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    display: block;
+    padding: 15px 20px;
+    max-width: 100%;
+    border-radius: 20px;
     color: #fff;
+    background: #404040;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
     font-weight: 700;
-    font-size: 0.9em;
+    background: #000;
 }
-.sobre-info span a:hover{
-    text-decoration: underline;
-}
-@media(max-width:375px){
-    .sobre-info p{
-        font-size: 1.2em;
-    } 
-}
+textarea{
+    padding: 15px;
+    margin: 10px 20px;   
+    display: block; 
+    border-radius: 5px;
+    border:none;
 
+}
 /*SOCIAL MEDIA*/
 .social {
     background: #404040;
@@ -378,7 +401,6 @@ a{
         border-top: 4px solid;
         margin: 20px 30px 10px 0;
         cursor: pointer;
-        -webkit-backface-visibility: hidden;
     }
     .mobile-btn::after, .mobile-btn::before{
         content: '';
@@ -484,3 +506,6 @@ a{
 .sobreEn{
     background: #007571;
 }
+.contactEn{
+    background: #009e99;
+} 

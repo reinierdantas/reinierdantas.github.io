@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Reinier Dantas">
+    <meta name="keywords" content="reinier dantas,github,portifolio,front-end, reinier">
     <meta name="Description" content="Minha página portifólio e Resumo">
     <meta name="robots" content="follow,index">
+    <meta name="referrer" content="origin">
     <!--TITLE-->
     <title>Reinier Dantas | Porfifólio</title>
     <!--LINKS  / FONTS-->
@@ -28,7 +30,7 @@
                 <li class="home">HOME</li>
                 <li><a href="#skill">SKILLS</a></li>
                 <li><a href="#project">PROJECTS</a></li>
-                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#about">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -130,16 +132,21 @@
         </div>
     </section>
     <!--SOBRE-->
-    <section id="about" class="sobre sobreEn noSelect">
+    <section id="contact" class="contato sobreEn noSelect">
         <div class="boxborder">
-            <h2>about me</h2>
+            <h2>contact</h2>
         </div>
-        <div class="sobre-info" data-anime="scroll">
-            <img src="image/profilepic.jpg" alt="Minha foto de perfil">
-            <p> Front-end developer in growing available for job opportunity / freelancer. Please contact me via email
-                at: <span><a href="mailto:reinier.dantas@yahoo.com.br"
-                        target="_blank">reinier.dantas@yahoo.com.br</a></span> or by the social media bellow.</p>
-        </div>
+        <div class="contato-form">
+            <form action="https://formspree.io/xayenyag" method="POST" class="contactEn" data-anime="scroll">
+                <input name="name" type="text" placeholder="Nome">
+                <input name="mail" type="email" placeholder="Email" required>
+                <input name="subject" type="text" placeholder="Assunto">
+                <textarea name="message" cols="30" rows="20" placeholder="Mensagem"></textarea>
+                <button name="submit" type="submit">ENVIAR</button>
+            </form>
+            </div>
+            </div>
+            <p>Or, if  would you rather, contact-me by the social medias bellow.</p>
         <div class="backBtn noSelect"><i class="fas fa-angle-double-up"></i></div>
     </section>
     <!--SOCIAL MEDIA-->
