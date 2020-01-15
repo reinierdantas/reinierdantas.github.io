@@ -212,18 +212,55 @@ a{
     justify-content: center;
 }
 .projeto{
-    margin: 0 20px;
-    
-  
+    margin: 20px 15px; 
 }
-.projeto-pic h2{
+.projeto-card{
+    position: absolute;
+    padding: 60px 0px;
+    justify-content: center;
+    width: 90%;
+    max-width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    background: #000;
+}
+.projeto-card a{
     color: #fff;
-    font-weight: 700;
-    background: #fa9855;
+}
+.projeto-card i{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.projeto-card.active{
+    padding: 60px 0px;
+    justify-content: center;
+    width: 91.5%;
+    height: 200px;
+    margin-top: 20px;
+    opacity: 1;
+    visibility: visible;
+    background: #000;
+    z-index: 1000;
+    margin-top: 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+@media(max-width:320px){
+    .projeto-card.active{
+        width: 90%;
+
+    } 
+}
+.projeto-info h2{
+    color: #fff;
+    font-weight: 300;
+    background: #404040;
     border-radius: 0px 0px 5px 5px;
     padding: 10px;
     font-size: 1.5em;
-    
+    margin-top: -5px;
 }
 .projeto-pic img{
     width: 100%;
@@ -231,20 +268,18 @@ a{
     height: 200px;
     margin-top: 20px;
     background: #000;
-    opacity: 0.7;
     border-radius: 5px 5px 0px 0px;
+    position: relative;
+    cursor: pointer;
 }
-.projeto-pic img:hover{
-    opacity: 1;
-}
-.projeto ul {
+.projeto-info ul {
     margin-top: 10px;
 }
-.projeto li{
+.projeto-info li{
     display: inline-block;
     font-weight: 300;
     padding: 5px ;
-    background: #c95100;
+    background: #404040;
     color: #fff;
     border-radius: 10px;
 }
@@ -486,23 +521,12 @@ textarea{
 .chamadaEn{
     background-image: linear-gradient(to right,#007571 , #009e99);
 }
-
 .conhecimentoEn{
     background-color: #00bab4;
 }
-
 .projetosEn{
     background: #009e99;
 }
-
-.projeto-picEn h2{
-    background: #04e0d9;
-}
-
-.projetoEn ul li{
-    background: #007571;
-}
-
 .sobreEn{
     background: #007571;
 }

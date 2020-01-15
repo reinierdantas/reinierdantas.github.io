@@ -53,3 +53,7 @@ function animeScroll() {
 $(document).scroll(function() {
     animeScroll();
 });
+
+$('.projeto').click(function(){
+    $(this).find('.projeto-card').toggleClass('active');
+});
