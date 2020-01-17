@@ -79,8 +79,7 @@ a{
     padding: 10px;
 }
 .menu-nav ul li a:hover{
-    font-weight: bold;
-    background: #3a3a3b;    
+    font-weight: bold;  
 }
 .home{
     color: #fff;
@@ -90,7 +89,6 @@ a{
 }
 .home:hover{
     font-weight: 700;
-    background: #3a3a3a;
 }
 
 /*CHAMADA*/
