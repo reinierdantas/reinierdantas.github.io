@@ -21,25 +21,13 @@
 
 <body>
     <!--HEADER-->
-    <header id="head" class="cabecalho noSelect">
-        <div class="mobile-btn"></div>
-        <nav class="menu-nav menu-mobile">
-            <ul>
-                <li class="home">HOME</li>
-                <li><a href="#skill">SKILLS</a></li>
-                <li><a href="#project">PROJETOS</a></li>
-                <li><a href="#contact">CONTATO</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--CHAMADA-->
-    <section id="call" class="chamada">
+    <header id="call" class="chamada noSelect">
         <div class="chamada-text">
             <h1>REINIER DANTAS</h1>
             <p>Work in progress front-end developer</p>
         </div>
-    </section>
-    <div class="arrowDown noSelect"> <a href="#skill"><i class="fas fa-angle-double-down"></i></a></div>
+        <div class="arrowDown noSelect"> <a href="#skill"><i class="fas fa-angle-double-down"></i></a></div>
+    </header>
     <!--SKILLS-->
     <section id="skill" class="conhecimento">
         <div class="boxborder">
@@ -47,23 +35,23 @@
         </div>
         <div class="conhecimento-icons" data-anime="scroll">
             <div class="c-icon">
-                <i class="fab fa-html5"></i>
-                <p>HTML</p>
+                <img src="icons/html5.svg" alt="html5 icon">
+                <p>HTML5</p>
             </div>
             <div class="c-icon">
-                <i class="fab fa-css3-alt"></i>
+                <img src="icons/css3.svg" alt="css3 icon">
                 <p>CSS3</p>
             </div>
             <div class="c-icon">
-                <img src="icons/jquery.svg" alt="jQuery icone">
+                <img src="icons/jquery.svg" alt="jQuery icon">
                 <p>jQuery</p>
             </div>
             <div class="c-icon">
-                <i class="fab fa-js"></i>
+                <img src="icons/js.svg" alt="js icon">
                 <p>JavaScript</p>
             </div>
             <div class="c-icon">
-                <i class="fab fa-bootstrap"></i>
+                <img src="icons/bootstrap.svg" alt="bootstrap4 icon">
                 <p>Bootstrap 4</p>
             </div>
         </div>
@@ -78,10 +66,11 @@
                 <div class="projeto-card">
                     <li><a href="https://reinierdantas.github.io/davinci" target="_blank"><i
                                 class="fas fa-globe"></i>Ver Website</a></li>
-                    <li><a href="https://github.com/reinierdantas/davinci" target="_blank"><i class="fab fa-github"></i>
-                            Ver Código</a></li>
+                    <li><a href="https://github.com/reinierdantas/davinci" target="_blank"><i
+                                class="fab fa-github"></i>Ver Código</a></li>
                 </div>
-                <img src="image/portpage3.png" alt="projeto sobre o pintor renascentista Leonardo da Vinci para fins de portifólio">
+                <img src="image/portpage3.png"
+                    alt="projeto sobre o pintor renascentista Leonardo da Vinci para fins de portifólio">
                 <div class="projeto-info">
                     <h2>Leonardo da Vinci</h2>
                     <ul>
@@ -94,8 +83,8 @@
                 <div class="projeto-card">
                     <li><a href="https://reinierdantas.github.io/prprod" target="_blank"><i class="fas fa-globe"></i>Ver
                             Website</a></li>
-                    <li><a href="https://github.com/reinierdantas/prprod" target="_blank"><i class="fab fa-github"></i>
-                            Ver Código</a></li>
+                    <li><a href="https://github.com/reinierdantas/prprod" target="_blank"><i
+                                class="fab fa-github"></i>Ver Código</a></li>
                 </div>
                 <img src="image/portpage1.png" alt="projeto pr produções para fins de portifólio">
                 <div class="projeto-info">
@@ -112,7 +101,7 @@
                     <li><a href="https://reinierdantas.github.io/doglover" target="_blank"><i
                                 class="fas fa-globe"></i>Ver Website</a></li>
                     <li><a href="https://github.com/reinierdantas/doglover" target="_blank"><i
-                                class="fab fa-github"></i> Ver Código</a></li>
+                                class="fab fa-github"></i>Ver Código</a></li>
                 </div>
                 <img src="image/portpage2.png" alt="projeto dog lover para fins de portifólio">
                 <div class="projeto-info">
@@ -129,7 +118,7 @@
                     <li><a href="https://reinierdantas.github.io/abstrato" target="_blank"><i
                                 class="fas fa-globe"></i>Ver Website</a></li>
                     <li><a href="https://github.com/reinierdantas/abstrato" target="_blank"><i
-                                class="fab fa-github"></i> Ver Código</a></li>
+                                class="fab fa-github"></i>Ver Código</a></li>
                 </div>
                 <img src="image/portpage4.png" alt="projeto abstrato para fins de portifólio">
                 <div class="projeto-info">
@@ -146,8 +135,8 @@
                 <div class="projeto-card">
                     <li><a href="https://reinierdantas.github.io/element" target="_blank"><i
                                 class="fas fa-globe"></i>Ver Website</a></li>
-                    <li><a href="https://github.com/reinierdantas/element" target="_blank"><i class="fab fa-github"></i>
-                            Ver Código</a></li>
+                    <li><a href="https://github.com/reinierdantas/element" target="_blank"><i
+                                class="fab fa-github"></i>Ver Código</a></li>
                 </div>
                 <img src="image/portpage5.png" alt="projeto element para fins de portifólio">
                 <div class="projeto-info">
@@ -166,15 +155,15 @@
         <div class="boxborder">
             <h2>contato</h2>
         </div>
-            <div class="contato-form" data-anime="scroll">
-                <form action="https://formspree.io/xayenyag" method="POST" data-anime="scroll">
-                    <input name="name" type="text" placeholder="Nome">
-                    <input name="mail" type="email" placeholder="Email" required>
-                    <input name="subject" type="text" placeholder="Assunto">
-                    <textarea name="message" cols="30" rows="20" placeholder="Mensagem"></textarea>
-                    <button name="submit" type="submit">ENVIAR</button>
-                </form>
-            </div>
+        <div class="contato-form" data-anime="scroll">
+            <form action="https://formspree.io/xayenyag" method="POST" data-anime="scroll">
+                <input name="name" type="text" placeholder="Nome">
+                <input name="mail" type="email" placeholder="Email" required>
+                <input name="subject" type="text" placeholder="Assunto">
+                <textarea name="message" cols="30" rows="20" placeholder="Mensagem"></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
         <p>Ou, se preferir contate-me pelas redes sociais abaixo.</p>
         <div class="backBtn noSelect"><i class="fas fa-angle-double-up"></i></div>
     </section>

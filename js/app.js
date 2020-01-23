@@ -1,15 +1,15 @@
-//Scroll suave
-$('.arrowDown a[href^="#"], .menu-nav a[href^="#"]').click(function(e){
+//Scroll suave -- smooth scroll 
+$('.arrowDown a[href^="#"]').click(function(e){
     e.preventDefault();
     let targId = $(this).attr('href'),
-        menuHeight = $('.menu-nav').innerHeight(),
+        menuHeight = $('.chamada').innerHeight(),
         offsetTop = $(targId).offset().top;
   $('html,body').animate({
-      scrollTop: offsetTop + menuHeight
+      scrollTop: offsetTop
   },1000);      
 });
 
-//voltar ao topo ao clicar no botão back to top
+//voltar ao topo -- back to top button
 $('.home, .backBtn, .lang').click(function(e){
     e.preventDefault();
 $('html,body').animate({
@@ -17,7 +17,7 @@ $('html,body').animate({
     }, 1000);
 });
 
-//Aparecer o botão back to top ao descer
+//Aparecer o botão voltar ao top -- show back to top button
 
 $(window).scroll(function(){
     if($(this).scrollTop() > 1000){
@@ -27,14 +27,8 @@ $(window).scroll(function(){
     }
 });
 
-//Menu mobile responsivo
-$('.mobile-btn').click(function(){
-    $(this).toggleClass('actived');
-    $('.menu-mobile').toggleClass('actived');
-});
 
-
-//Animação ao descer o scroll
+//Animação ao descer o scroll -- show element when scroll
 var $target = $('[data-anime="scroll"]'),
     animationClass = 'animate',
     offset = $(window).height() * 3/4; 

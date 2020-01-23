@@ -50,56 +50,17 @@ a{
 }
 
 /*HEADER*/
-.cabecalho{
-    background-color: #2e2e2e;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-.menu-nav{
-    width: 100%;
-    padding: 0 4%;
-}
-.menu-nav ul{
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    
-}
-.menu-nav ul li{
-    padding: 15px;
-}
-.menu-nav ul li + li{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.menu-nav ul li a{
-    color: #fff;
-    font-weight: 300;
-    padding: 10px;
-}
-.menu-nav ul li a:hover{
-    font-weight: bold;  
-}
-.home{
-    color: #fff;
-    font-weight: 300;
-    cursor: pointer;
-    padding: 15px;
-}
-.home:hover{
-    font-weight: 700;
-}
-
-/*CHAMADA*/
 .chamada{
     width: 100%;
     min-height: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to right,#c95100 , #fc7b23);
+    background-image: linear-gradient(to right,#6a2727 , #d79494);
 }
 .chamada-text{
     max-width: 100%;
@@ -146,7 +107,8 @@ a{
 .arrowDown{
     width: 100%;
     text-align: center;
-    margin-top: -60px;
+    position: absolute;
+    bottom: 0%;
 
 }
 .arrowDown i {
@@ -160,7 +122,7 @@ a{
     flex-direction: column;
     justify-content: center;
     height: auto;
-    background-color: #fc7b23;
+    background-color: #9f3b3b;
     padding-bottom: 270px;
     padding-top: 50px;
 }
@@ -176,11 +138,11 @@ a{
     margin: 10px;
 }
 .c-icon{
-    flex: 1 1 200px;
-    padding: 0 2%;
+    flex: 1 1 180px;
+    padding: 10px;
 }
 .c-icon img{
-    height: 95px;
+    height: 75px;
     margin: 10px;
 }
 .c-icon p{
@@ -197,7 +159,7 @@ a{
     text-align: center;
     flex-wrap: wrap;
     height: auto;
-    background: #ff7512;
+    background: #c35f5f;
     padding-top: 50px;
     padding-bottom: 150px;
 }
@@ -228,6 +190,9 @@ a{
 .projeto-card a{
     color: #fff;
 }
+.projeto-card a:hover{
+    text-decoration: underline;
+}
 .projeto-card i{
     font-size: 1.5rem;
     padding: 10px;
@@ -254,8 +219,6 @@ a{
 .projeto-info h2{
     color: #fff;
     font-weight: 300;
-    background: #404040;
-    border-radius: 0px 0px 5px 5px;
     padding: 10px;
     font-size: 1.5em;
     margin-top: -5px;
@@ -266,12 +229,12 @@ a{
     height: 200px;
     margin-top: 20px;
     background: #000;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 2px;
     position: relative;
     cursor: pointer;
 }
 .projeto-info ul {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .projeto-info li{
     display: inline-block;
@@ -284,7 +247,7 @@ a{
 
 /*SOBRE*/
 .contato{
-    background: #c95100;
+    background: #d79494;
     padding-top: 50px;
     padding-bottom: 150px;
     display: flex;
@@ -303,7 +266,7 @@ a{
 form{
     display: flex;
     flex-direction: column;
-    background: #ff7512;
+    background-image: linear-gradient(to right,#c35f5f , #6a2727);
     max-width: 100%;
     width: 800px;  
     margin: 0 auto;
@@ -422,87 +385,6 @@ textarea{
     color: #fff;
 }
 
-/*MOBILE MENU*/
-@media(max-width:800px){
-    .mobile-btn{
-        display: flex;
-        flex-direction: column;
-        float: right;
-        color: #fff;
-        width: 36px;
-        height: 36px;
-        border-top: 4px solid;
-        margin: 20px 30px 10px 0;
-        cursor: pointer;
-    }
-    .mobile-btn::after, .mobile-btn::before{
-        content: '';
-        display: block;
-        height: 4px;
-        margin-top: 6px;
-        background: currentColor;
-        transition: transform .2s ease;
-    }
-    .mobile-btn.actived {
-        border-top-color: transparent;
-    }
-    .mobile-btn.actived::after {
-        margin-top: -3px;
-        top: 2px;
-        transform: rotate(45deg);
-    }
-    .mobile-btn.actived::before{
-        margin-top: 3;
-        top: 6px;
-        transform: rotate(135deg);
-    }
-    .menu-nav.menu-mobile{
-        position: fixed;
-        padding: 0;
-        top: 67px;
-        right: 10;
-        opacity: 0;
-        visibility: hidden;
-        transform: translate3d(0px, 0px, 0px);
-        transition: .3s;
-    }
-    .menu-nav.menu-mobile ul{
-        display: flex;
-        flex-direction: column;
-        float: right;
-        width: 30%;
-        max-width: 30%;
-        text-align: center;
-        background: #2e2e2e;
-    }
-    .menu-nav.menu-mobile ul li{
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-    }
-    .menu-nav.menu-mobile.actived{
-        opacity: 1;
-        visibility: visible;
-        transform: translate3d(0px , 0px, 0px);
-    }
-    .home{
-        padding: 10px !important;
-    }
-}
-@media(max-width:350px){
-
-    .menu-nav.menu-mobile ul{
-        display: flex;
-        flex-direction: column;
-        float: right;
-        width: 40%;
-        max-width: 40%;
-        text-align: center;
-        background: #2e2e2e;
-    }
-}
-
 /* Animação data-target */
 [data-anime]{
     opacity: 0;
@@ -517,17 +399,17 @@ textarea{
 
 /************* EN PAGE ***********/
 .chamadaEn{
-    background-image: linear-gradient(to right,#007571 , #009e99);
+    background-image: linear-gradient(to right,#205070 , #8ebdde);
 }
 .conhecimentoEn{
-    background-color: #00bab4;
+    background-color: #3178a9;
 }
 .projetosEn{
-    background: #009e99;
+    background: #559dcd;
 }
 .sobreEn{
-    background: #007571;
+    background: #8ebdde;
 }
 .contactEn{
-    background: #009e99;
+    background-image: linear-gradient(to right,#559dcd , #205070);
 } 
