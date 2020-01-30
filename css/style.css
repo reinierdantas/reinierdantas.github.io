@@ -81,7 +81,7 @@ a{
     width: 100%;
     font-size: 1.8em;
     font-weight: 400;
-    color: #212624;
+    color: #000;
 }
 @media (max-width:500px){
     .chamada-text{
