@@ -60,7 +60,7 @@ a{
     position: relative;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to right,#6a2727 , #d79494);
+    background-image: linear-gradient(to right,#54678f , #2e303e);
 }
 .chamada-text{
     max-width: 100%;
@@ -81,6 +81,7 @@ a{
     width: 100%;
     font-size: 1.8em;
     font-weight: 400;
+    color: #212624;
 }
 @media (max-width:500px){
     .chamada-text{
@@ -122,7 +123,7 @@ a{
     flex-direction: column;
     justify-content: center;
     height: auto;
-    background-color: #9f3b3b;
+    background-color: #54678f;
     padding-bottom: 270px;
     padding-top: 50px;
 }
@@ -147,8 +148,9 @@ a{
 }
 .c-icon p{
     padding-top: 10px;
-    font-size: 2em;
+    font-size: 1.5rem;
     color: #fff;
+    font-weight: 300;
 }
 
 /*PROJETOS*/
@@ -159,7 +161,7 @@ a{
     text-align: center;
     flex-wrap: wrap;
     height: auto;
-    background: #c35f5f;
+    background: #54678f;
     padding-top: 50px;
     padding-bottom: 150px;
 }
@@ -185,7 +187,7 @@ a{
     opacity: 0;
     visibility: hidden;
     cursor: pointer;
-    background: #000;
+    background: #212624;
 }
 .projeto-card a{
     color: #fff;
@@ -205,7 +207,7 @@ a{
     margin-top: 20px;
     opacity: 1;
     visibility: visible;
-    background: #000;
+    background: #212624;
     z-index: 1000;
     margin-top: 20px;
     border-radius: 5px 5px 0px 0px;
@@ -220,7 +222,7 @@ a{
     color: #fff;
     font-weight: 300;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.2rem;
     margin-top: -5px;
 }
 .projeto-pic img{
@@ -228,7 +230,7 @@ a{
     max-width: 400px;
     height: 200px;
     margin-top: 20px;
-    background: #000;
+    background: #212624;
     border-radius: 2px;
     position: relative;
     cursor: pointer;
@@ -240,14 +242,15 @@ a{
     display: inline-block;
     font-weight: 300;
     padding: 5px ;
-    background: #404040;
+    background: #2e303e;
     color: #fff;
     border-radius: 10px;
+    font-size: 0.875rem;
 }
 
 /*SOBRE*/
 .contato{
-    background: #d79494;
+    background: #54678f;
     padding-top: 50px;
     padding-bottom: 150px;
     display: flex;
@@ -266,7 +269,7 @@ a{
 form{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right,#c35f5f , #6a2727);
+    background: #9199be;
     max-width: 100%;
     width: 800px;  
     margin: 0 auto;
@@ -301,7 +304,7 @@ form button{
 }
 form button:hover{
     font-weight: 700;
-    background: #000;
+    background: #212624;
 }
 textarea{
     padding: 15px;
@@ -313,7 +316,7 @@ textarea{
 }
 /*SOCIAL MEDIA*/
 .social {
-    background: #404040;
+    background: #212624;
     padding: 50px 0 50px 0;
     text-align: center;
 }
@@ -323,16 +326,16 @@ textarea{
 }
 .social ul li i{
     font-size: 3.5em;
-    color: #c4c4c4;
+    color: #54678f;
 }
 .social ul li i:hover{
-    color: #fff;
+    color: #9199be;
 }
 /*Back to TOP*/
 .backBtn{
-    width: 50px;
-    height: 50px;
-    background: #3a3a3b;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to right,#2e303e , #9199be);
     border-radius: 50%;
     cursor: pointer;
     position: fixed;
@@ -350,16 +353,16 @@ textarea{
 
 }
 .backBtn:hover{
-    background: #000;
+    background-image: linear-gradient(to right,#9199be , #2e303e);
 }
 .backBtn i{
-    font-size: 46px;
+    font-size: 36px;
     color: #fff;
 }
 
 /*FOOTER*/
 .rodape{
-    background: #000;
+    background: #2e303e;
     padding: 15px 0;
     text-align: center;
     font-size: 1.5em;
@@ -367,22 +370,11 @@ textarea{
 }
 .lang{
     cursor: pointer;
-    color: #837f7f;
 }
-.lang:hover{
-    color: #fff;
-}
-.rodape span{
-    color: #837f7f;
-    font-weight: 700;
-}
-
-.rodape a{
-    color: #837f7f;
-    font-weight: 700;
-}
-.rodape a:hover{
-    color: #fff;
+.rodape img{
+    max-width: 36px;
+    height: 36px;
+    margin-right: 10px;
 }
 
 /* Animação data-target */
@@ -399,17 +391,32 @@ textarea{
 
 /************* EN PAGE ***********/
 .chamadaEn{
-    background-image: linear-gradient(to right,#205070 , #8ebdde);
+    background-image: linear-gradient(to right,#8d2d56 , #2b193e);
 }
 .conhecimentoEn{
-    background-color: #3178a9;
+    background-color: #8d2d56;
 }
 .projetosEn{
-    background: #559dcd;
+    background: #8d2d56;
 }
 .sobreEn{
-    background: #8ebdde;
+    background: #8d2d56;
 }
 .contactEn{
-    background-image: linear-gradient(to right,#559dcd , #205070);
+    background: #2b193e;;
 } 
+.backBtnEn{
+    background-image: linear-gradient(to right,#a3445d , #2b193e)
+}
+.backBtnEn:hover{
+    background-image: linear-gradient(to right,#2b193e , #a3445d)
+}
+.socialEn ul li i{
+    color: #8d2d56;
+}
+.socialEn ul li i:hover{
+    color: #a3445d;
+}
+.rodapeEn{
+    background: #2b193e;
+}
