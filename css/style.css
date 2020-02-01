@@ -60,7 +60,7 @@ a{
     position: relative;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to right,#54678f , #2e303e);
+    background-image: linear-gradient(#2e302e , #54678f);
 }
 .chamada-text{
     max-width: 100%;
@@ -353,7 +353,7 @@ textarea{
 
 }
 .backBtn:hover{
-    background-image: linear-gradient(to right,#9199be , #2e303e);
+    background-image: linear-gradient(#9199be , #2e303e);
 }
 .backBtn i{
     font-size: 36px;
@@ -391,7 +391,7 @@ textarea{
 
 /************* EN PAGE ***********/
 .chamadaEn{
-    background-image: linear-gradient(to right,#8d2d56 , #2b193e);
+    background-image: linear-gradient(#2b192b , #8d2d56);
 }
 .conhecimentoEn{
     background-color: #8d2d56;
@@ -409,7 +409,7 @@ textarea{
     background-image: linear-gradient(to right,#a3445d , #2b193e)
 }
 .backBtnEn:hover{
-    background-image: linear-gradient(to right,#2b193e , #a3445d)
+    background-image: linear-gradient(#2b193e , #a3445d)
 }
 .socialEn ul li i{
     color: #8d2d56;
